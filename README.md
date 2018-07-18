@@ -1,5 +1,10 @@
 # Custom Web Framework in Swift
 
+## Requirements
+
+- XCode >= 9.4.1
+- Swift >= 4.0.0
+
 ## Client Web Server
 This web server handles your client only with helpful tools for high performance.
 The web server is only a place to dump files while your API server will handle multithreaded API calls.
@@ -15,4 +20,31 @@ Web Server Functionality
 ## API Web Server
 This web server is built for your API which has all tools available to it.
 The server will handle all your security for the connections it makes to other servers
-such as your database, proxies, & admin UI panel
+such as your database, proxies, & admin UI panel. And all the tools you need for 
+a high performance API.
+
+Api Server Functionality
+- Multithreaded
+- ORMs
+- Clean Response handlers
+- Clean route declaration
+- Caching
+- Indexed Search
+- Websockets
+- Protocols
+- Multipart
+- Crypto
+- Security
+- Serialization
+- Headers
+- File System
+- Querystrings
+- DNS support
+
+## Deployment
+There are helpful tools for deployments.
+
+- AWS EC2
+- Docker
+- Heroku
+
